@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            border: 2% solid lightgreen;
+            margin-left: 22%;
+            width: 60%;
+        }
+        .background
+        {
+            background-color: green;
+        }
+        .background input
+        {
+            width: 37%;
+            height: 50px;
+            color: brown;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .address input
+        {
+            height: 90px;
+        }
+        .payment input
+        {
+            width: 2%;
+            height: auto;
+
+        }
+        .payment img
+        {
+            width: 2%;
+            height: 10px;
+        }
+        .buy input
+        {
+            width: 10%;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 align="center"><u> PHP Assignment </u></h1>
+    <h2 align="center"> MODULE-2 HTML,CSS,SQL</h2>
+    <h4> Exersice-1 : Try to create User Details form </h4>
+    <div class="background">
+        <center> 
+            <br>     
+        <h2><b> STEP 1 :  Your Details </b></h2>
+        
+      <hr>
+        <form method="post">
+           Name : <input type="text" name="name"  placeholder="Write Your Name Here ...." required>               
+        </form>
+        <br><br>
+        <hr>
+        <br> <br>
+        <form method="post">
+            Email :<input type="text" name="Email" placeholder="Write Your Email Here ...." required>               
+        </form>
+        <br><br>
+        <hr>
+        <br><br>
+        <form method="post">
+            Phone : <input type="text" name="phone"  placeholder="Write Your Phone No Here ...." required>               
+        </form>
+        <br><br>
+        </center>
+    </div>
+
+    <div class="background">
+        <center>
+            <br><br>
+            <hr>
+                  
+        <h2><b>TEP 2 :  Delivery Address</b></h2>
+      <hr>
+      <div class="address">
+        <br><br>
+        <form method="post">
+           Address : <input type="text" name="ADDRESS"  required>               
+        </form>
+        <br><br>
+    </div>
+        <hr>
+        <br><br>
+        <form method="post">
+            Post  Code  :  <input type="text" name="Email"  required>               
+        </form>
+        <br><br>
+        <hr>
+        <br><br>
+        <form method="post">
+            Contery : <input type="text" name="phone"   required>               
+        </form>
+        <br><br>
+        </center>
+    </div>
+
+    <div class="background">
+        <center>
+            <br><br>
+            <hr>
+                  
+        <h2><b> STEP 3 :  Card Details </b></h2>
+        
+        <hr>
+        <br><br>
+        <div class="payment">
+        <form method="post">
+         <input type="radio" name="VISA" required><img src="image/1.png"> VISA
+         <input type="radio" name="VISA" required> <img src="image/2.jpg"> AMEX 
+         <input type="radio" name="VISA" required> <img src="image/3.jpg" MASTERCARD              
+        </form>
+        </div>
+        <br><br>
+          <hr>
+          <br><br>
+        <form method="post">
+           Card Number : <input type="text" name="Card Number"   required>               
+        </form>
+        <br><br>
+        <hr>
+        <br><br>
+        <form method="post">
+            Security Code :<input type="text" name="Code"  required>               
+        </form>
+        <br><br>
+        <hr>
+        <br><br>
+        <form method="post">
+            Name On Card : <input type="text" name="phone"  placeholder="Exact Name As on The Card" required>               
+        </form>
+        <br><br>
+        </center>
+    </div>
+<div class="background">
+<div class="buy">
+    <br><br>
+    <hr>
+    <br><br>
+    <center>
+    <form method="post">
+        <input type="button" name="Buy it!" value="Buy It!"  >               
+     </form>
+     <br><br>
+    
+    </center>
+
+</div>
+</div>
+
+</body>
+</html>
